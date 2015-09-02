@@ -1,0 +1,147 @@
+/* books.css */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 110%;
+	font-family: Helvetica;
+	color:black;
+	-webkit-text-size-adjust:none;
+	background:#f4f2f2;
+}
+
+h1 {
+	font-size: 150%;
+	font-family: Verdana;
+	color: white;
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+
+
+background: -webkit-linear-gradient(top, #ebf1f6 0%,#abd3ee 50%,#89c3eb 63%,#d5ebfb 100%);
+background: -moz-linear-gradient(top, #ebf1f6 0%, #abd3ee 50%, #89c3eb 63%, #d5ebfb 100%); /* FF3.6+ */
+
+
+}
+
+
+h2 {
+	margin: 0px;
+	padding: 10px;
+	background-color: #484848;
+	color: white;
+	text-align: center;
+	font-size: 135%;
+}
+
+/* Edge-to-Edge style */
+ul	{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+/* Rounded Rectangle style */
+ul.rounded {
+    margin: 0px 10px 17px 10px;
+
+	font-weight: bold;
+    background-color: white;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(217,217,217);
+
+    -webkit-border-radius: 8px;
+}
+ul.rounded > li:last-child {
+	border-bottom: 0;
+}
+
+dd{
+	padding:14px;
+	margin:10px;
+	border-bottom: 1px solid rgb(217, 217, 217);
+	
+}
+
+li {
+	list-style-type:none;
+	border-bottom: 1px solid rgb(217, 217, 217);
+	padding-right: 20px;
+	padding-left: 20px;
+	height:39px;      /* the height of each list item */
+	line-height:39px; /* leading - the space between lines of text */
+	overflow:hidden;
+	word-wrap: break-word;
+	
+}
+
+a {
+    display: block;
+
+    text-decoration: none;
+    color: #4e4eff;
+
+    background-image: url(images/chevron3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+    white-space : nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+a.kar {
+    display: block;
+
+    text-decoration: none;
+    color: blue;
+
+    background-image:none;
+    background-repeat: no-repeat;
+    background-position: right;
+
+    white-space : nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p{
+	
+	
+	
+}
+
+p.header {
+	margin: 10px;
+	padding: 14px;
+	background-color: #b4b4b4;
+	color: white;
+	-webkit-border-radius: 8px;
+}
+
+p.main {
+	margin: 10px;
+	padding: 14px;
+}
+table, td, th{
+font-family:Georgia, "Times New Roman", Times, serif;
+border-collapse:collapse;
+border:1px solid green;
+background-color:#06F;
+background:#FFF;
+color:black;
+padding:10px;
+}
+
+td.unclear{
+border-color:#f3f3f3;
+width:0px;
+background:#f3f3f3;
+}
+td.cool{
+width:45%;
+}
+
+
