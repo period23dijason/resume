@@ -9,6 +9,9 @@ body {
 	-webkit-text-size-adjust:none;
 	background:#f4f2f2;
 }
+object:focus {
+    outline: none;
+}
 
 h1 {
 	font-size: 150%;
